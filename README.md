@@ -12,7 +12,7 @@ This is a [Packer](https://packer.io/) template. Install the latest version of
 Packer, then:
 
     packer build \
-      -var docker_version=1.3.1 \
+      -var docker_version=1.4.0 \
       -var aws_region=$AWS_REGION \
       -var aws_access_key=$AWS_ACCESS_KEY_ID \
       -var aws_secret_key=$AWS_SECRET_ACCESS_KEY \
